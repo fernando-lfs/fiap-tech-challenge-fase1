@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vitibrasil_api"
+version = "1.0.0"
+description = "API REST para dados do Vitibrasil Embrapa com scraping e fallback local."
+authors = ["fernando.l.f@outlook.com"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
