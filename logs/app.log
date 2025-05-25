@@ -1,0 +1,89 @@
+2025-05-24 16:23:34,324 INFO [root] Iniciando scraping do recurso producao em http://vitibrasil.cnpuv.embrapa.br/index.php?opcao=opt_02
+2025-05-24 16:23:34,884 INFO [root] Scraping do recurso producao concluído com sucesso.
+2025-05-24 16:23:34,886 INFO [root] Fonte dos dados de producao: online
+2025-05-25 10:12:36,636 INFO [root] Iniciando scraping do recurso producao em http://vitibrasil.cnpuv.embrapa.br/index.php?opcao=opt_02
+2025-05-25 10:12:37,223 INFO [root] Scraping do recurso producao concluído com sucesso.
+2025-05-25 10:12:37,224 INFO [root] Fonte dos dados de producao: online
+2025-05-25 10:13:32,705 INFO [root] Iniciando scraping do recurso producao em http://vitibrasil.cnpuv.embrapa.br/index.php?opcao=opt_02
+2025-05-25 10:13:33,203 INFO [root] Scraping do recurso producao concluído com sucesso.
+2025-05-25 10:13:33,206 INFO [root] Fonte dos dados de producao: online
+2025-05-25 10:14:43,714 INFO [root] Iniciando scraping do recurso producao em http://vitibrasil.cnpuv.embrapa.br/index.php?opcao=opt_02
+2025-05-25 10:14:44,246 INFO [root] Scraping do recurso producao concluído com sucesso.
+2025-05-25 10:14:44,249 INFO [root] Fonte dos dados de producao: online
+2025-05-25 10:16:00,277 INFO [root] Iniciando scraping do recurso producao em http://vitibrasil.cnpuv.embrapa.br/index.php?opcao=opt_02
+2025-05-25 10:16:00,760 INFO [root] Scraping do recurso producao concluído com sucesso.
+2025-05-25 10:16:00,762 INFO [root] Fonte dos dados de producao: online
+2025-05-25 11:24:00,867 INFO [root] Iniciando scraping do recurso producao ano=2023 em http://vitibrasil.cnpuv.embrapa.br/index.php com params {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-25 11:24:01,463 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-25 11:24:01,464 INFO [root] Fonte dos dados de producao: online
+2025-05-25 11:26:39,937 INFO [root] Iniciando scraping do recurso producao ano=2029 em http://vitibrasil.cnpuv.embrapa.br/index.php com params {'ano': '2029', 'opcao': 'opt_02'}
+2025-05-25 11:26:40,436 INFO [root] Scraping do recurso producao ano=2029 concluído com sucesso.
+2025-05-25 11:26:40,437 INFO [root] Fonte dos dados de producao: online
+2025-05-25 11:28:40,721 INFO [root] Iniciando scraping do recurso producao ano=2024 em http://vitibrasil.cnpuv.embrapa.br/index.php com params {'ano': '2024', 'opcao': 'opt_02'}
+2025-05-25 11:28:41,242 INFO [root] Scraping do recurso producao ano=2024 concluído com sucesso.
+2025-05-25 11:28:41,243 INFO [root] Fonte dos dados de producao: online
+2025-05-25 11:29:03,586 INFO [root] Iniciando scraping do recurso producao ano=2024 em http://vitibrasil.cnpuv.embrapa.br/index.php com params {'ano': '2024', 'opcao': 'opt_02'}
+2025-05-25 11:29:04,081 INFO [root] Scraping do recurso producao ano=2024 concluído com sucesso.
+2025-05-25 11:29:04,082 INFO [root] Fonte dos dados de producao: online
+2025-05-25 11:29:35,109 INFO [root] Iniciando scraping do recurso producao ano=2022 em http://vitibrasil.cnpuv.embrapa.br/index.php com params {'ano': '2022', 'opcao': 'opt_02'}
+2025-05-25 11:29:35,669 INFO [root] Scraping do recurso producao ano=2022 concluído com sucesso.
+2025-05-25 11:29:35,670 INFO [root] Fonte dos dados de producao: online
+2025-05-25 11:52:44,634 INFO [root] Iniciando scraping do recurso producao ano=2023 em http://vitibrasil.cnpuv.embrapa.br/index.php com params {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-25 11:52:45,172 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-25 11:52:45,173 INFO [root] Fonte dos dados de producao: online
+2025-05-25 12:03:58,131 INFO [root] Iniciando scraping do recurso producao ano=2023 em http://vitibrasil.cnpuv.embrapa.br/index.php com params {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-25 12:03:58,627 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-25 12:03:58,628 INFO [root] Fonte dos dados de producao: online
+2025-05-25 12:04:48,232 INFO [root] Iniciando scraping do recurso producao ano=2023 em http://vitibrasil.cnpuv.embrapa.br/index.php com params {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-25 12:04:48,827 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-25 12:04:48,828 INFO [root] Fonte dos dados de producao: online
+2025-05-25 12:18:18,973 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2022', 'opcao': 'opt_02'}
+2025-05-25 12:18:19,479 INFO [root] [SCRAPER] Status code: 200
+2025-05-25 12:18:19,520 INFO [root] [SCRAPER] Headers extraídos: ['', 'Dados da VitiviniculturaLoiva Maria Ribeiro de MelloCarlos Alberto Ely Machado', 'Dados da Vitivinicultura', 'Loiva Maria Ribeiro de MelloCarlos Alberto Ely Machado', '']
+2025-05-25 12:18:19,522 INFO [root] [SCRAPER] Linhas extraídas: 0
+2025-05-25 12:18:19,522 WARNING [root] [SCRAPER] Nenhum dado extraído da tabela! URL: http://vitibrasil.cnpuv.embrapa.br/index.php?ano=2022&opcao=opt_02
+2025-05-25 12:18:19,524 INFO [root] Scraping do recurso producao ano=2022 concluído com sucesso.
+2025-05-25 12:18:19,526 INFO [root] Fonte dos dados de producao: online
+2025-05-25 12:30:20,312 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2022', 'opcao': 'opt_02'}
+2025-05-25 12:30:20,799 INFO [root] [SCRAPER] Status code: 200
+2025-05-25 12:30:20,871 INFO [root] [SCRAPER] Produtos extraídos: 0
+2025-05-25 12:30:20,875 WARNING [root] [SCRAPER] Nenhum dado extraído da tabela! URL: http://vitibrasil.cnpuv.embrapa.br/index.php?ano=2022&opcao=opt_02
+2025-05-25 12:30:20,877 INFO [root] Scraping do recurso producao ano=2022 concluído com sucesso.
+2025-05-25 12:30:20,879 INFO [root] Fonte dos dados de producao: online
+2025-05-25 12:40:40,777 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2022', 'opcao': 'opt_02'}
+2025-05-25 12:40:41,219 INFO [root] [SCRAPER] Status code: 200
+2025-05-25 12:40:41,295 INFO [root] [SCRAPER] Produtos extraídos: 51
+2025-05-25 12:40:41,295 INFO [root] Scraping do recurso producao ano=2022 concluído com sucesso.
+2025-05-25 12:40:41,297 INFO [root] Fonte dos dados de producao: online
+2025-05-25 13:01:48,704 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_02'}
+2025-05-25 13:01:49,218 INFO [root] [SCRAPER] Status code: 200
+2025-05-25 13:01:49,313 INFO [root] [SCRAPER] Produtos extraídos: 51
+2025-05-25 13:01:49,316 INFO [root] Scraping do recurso producao ano=2024 concluído com sucesso.
+2025-05-25 13:01:49,318 INFO [root] Fonte dos dados de producao: online
+2025-05-25 13:12:37,348 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2000', 'opcao': 'opt_03'}
+2025-05-25 13:12:37,892 INFO [root] [SCRAPER] Status code: 200
+2025-05-25 13:12:38,042 INFO [root] [SCRAPER] Produtos extraídos: 139
+2025-05-25 13:12:38,042 INFO [root] Scraping do recurso processamento ano=2000 concluído com sucesso.
+2025-05-25 13:12:38,043 INFO [root] Fonte dos dados de processamento: online
+2025-05-25 13:12:59,767 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2019', 'opcao': 'opt_04'}
+2025-05-25 13:13:00,295 INFO [root] [SCRAPER] Status code: 200
+2025-05-25 13:13:00,345 INFO [root] [SCRAPER] Produtos extraídos: 62
+2025-05-25 13:13:00,345 INFO [root] Scraping do recurso comercializacao ano=2019 concluído com sucesso.
+2025-05-25 13:13:00,347 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-25 13:14:30,031 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1980', 'opcao': 'opt_05'}
+2025-05-25 13:14:30,619 INFO [root] [SCRAPER] Status code: 200
+2025-05-25 13:14:30,732 INFO [root] [SCRAPER] Produtos extraídos: 0
+2025-05-25 13:14:30,735 WARNING [root] [SCRAPER] Nenhum dado extraído da tabela! URL: http://vitibrasil.cnpuv.embrapa.br/index.php?ano=1980&opcao=opt_05
+2025-05-25 13:14:30,736 INFO [root] Scraping do recurso importacao ano=1980 concluído com sucesso.
+2025-05-25 13:14:30,737 INFO [root] Fonte dos dados de importacao: online
+2025-05-25 13:15:50,697 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-25 13:15:51,154 INFO [root] [SCRAPER] Status code: 200
+2025-05-25 13:15:51,289 INFO [root] [SCRAPER] Produtos extraídos: 0
+2025-05-25 13:15:51,290 WARNING [root] [SCRAPER] Nenhum dado extraído da tabela! URL: http://vitibrasil.cnpuv.embrapa.br/index.php?ano=2024&opcao=opt_05
+2025-05-25 13:15:51,291 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-25 13:15:51,293 INFO [root] Fonte dos dados de importacao: online
+2025-05-25 13:16:33,964 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_03'}
+2025-05-25 13:16:34,413 INFO [root] [SCRAPER] Status code: 200
+2025-05-25 13:16:34,574 INFO [root] [SCRAPER] Produtos extraídos: 139
+2025-05-25 13:16:34,575 INFO [root] Scraping do recurso processamento ano=2024 concluído com sucesso.
+2025-05-25 13:16:34,576 INFO [root] Fonte dos dados de processamento: online

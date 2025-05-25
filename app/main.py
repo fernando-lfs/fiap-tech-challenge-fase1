@@ -7,7 +7,8 @@ import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings, setup_logging
-from app.routers.vitibrasil_router import router as vitibrasil_router
+from app.routes import router_dados, router_auth, router_utils
+from app.services import check_site_status
 
 setup_logging()
 
@@ -21,9 +22,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(vitibrasil_router)
+app.include_router(router_dados)
+app.include_router(router_auth)
+app.include_router(router_utils)
 
-@app.get("/health", tags=["health"])
+@app.get("/health", tags=["Utilitários"], summary="Teste de saúde da API")
 def health_check():
-    """Endpoint para checagem de saúde da API."""
-    return {"status": "ok"}
+    """Retorna status do servidor FastAPI e status do site da Embrapa."""
+    return {
+        "api": "online",
+        "site_embrapa_online": check_site_status()
+    }
