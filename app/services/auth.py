@@ -1,16 +1,9 @@
-"""
-Serviços para scraping, fallback, manipulação de usuários e utilitários.
-"""
 import os
 import json
-from typing import Dict, List, Optional
-from datetime import datetime
-from app.adapters import scrape_table, load_backup
+from typing import Dict, List
 from app.core.config import settings
-import logging
 
 USERS_FILE = os.path.join(settings.backup_path, "users.json")
-
 DEFAULT_USER = {"username": "admin", "password": "admin123"}
 
 def ensure_users_file():
@@ -47,35 +40,3 @@ def authenticate_user(username: str, password: str) -> bool:
     users = get_all_users()
     return any(u["username"] == username and u["password"] == password for u in users)
 
-def get_resource_data(resource: str, ano: Optional[str] = None) -> Dict:
-    """
-    Orquestra obtenção de dados: tenta scraping, faz fallback para backup local, filtra por ano.
-    Args:
-        resource (str): Nome do recurso.
-        ano (str, opcional): Ano para filtro. Default: '2024'.
-    Returns:
-        Dict: Dicionário com fonte, timestamp e dados.
-    """
-    ano = ano or "2024"
-    try:
-        dados = scrape_table(resource, ano)
-        fonte = "online"
-    except Exception:
-        dados = load_backup(resource, ano)
-        fonte = "local"
-    resp = {
-        "fonte": fonte,
-        "timestamp": datetime.utcnow().isoformat() + "Z",
-        "dados": dados
-    }
-    logging.info(f"Fonte dos dados de {resource}: {fonte}")
-    return resp
-
-def check_site_status() -> bool:
-    """Verifica se o site da Embrapa está online."""
-    import requests
-    try:
-        resp = requests.get("http://vitibrasil.cnpuv.embrapa.br", timeout=10)
-        return resp.status_code == 200
-    except Exception:
-        return False

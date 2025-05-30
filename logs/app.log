@@ -87,3 +87,522 @@
 2025-05-25 13:16:34,574 INFO [root] [SCRAPER] Produtos extraídos: 139
 2025-05-25 13:16:34,575 INFO [root] Scraping do recurso processamento ano=2024 concluído com sucesso.
 2025-05-25 13:16:34,576 INFO [root] Fonte dos dados de processamento: online
+2025-05-26 21:18:38,342 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2000', 'opcao': 'opt_02'}
+2025-05-26 21:18:40,642 ERROR [root] Erro ao raspar producao ano=2000: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011FB28FAAA0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-05-26 21:18:40,643 INFO [root] Tentando carregar backup local para producao ano=2000
+2025-05-26 21:18:40,644 ERROR [root] Backup local não encontrado para producao ano=2000
+2025-05-27 19:58:30,605 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-27 19:58:32,916 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001ACEFDF54E0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-05-27 19:58:32,919 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001ACEFDF54E0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-05-27 19:58:32,921 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-27 19:58:32,935 ERROR [root] Backup local não encontrado para producao ano=2023
+2025-05-27 19:58:32,937 ERROR [root] [FALLBACK] Backup local também falhou: Backup local não encontrado para producao ano=2023
+2025-05-28 19:29:32,020 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-28 19:29:32,177 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:29:32,251 INFO [root] [SCRAPER] Linhas extraídas: 51
+2025-05-28 19:29:32,255 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-28 19:29:32,262 INFO [root] Fonte dos dados de producao: online
+2025-05-28 19:29:56,213 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_02'}
+2025-05-28 19:29:56,339 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:29:56,423 INFO [root] [SCRAPER] Linhas extraídas: 51
+2025-05-28 19:29:56,427 INFO [root] Scraping do recurso producao ano=1970 concluído com sucesso.
+2025-05-28 19:29:56,429 INFO [root] Fonte dos dados de producao: online
+2025-05-28 19:30:32,289 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2022', 'opcao': 'opt_02'}
+2025-05-28 19:30:32,419 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:30:32,524 INFO [root] [SCRAPER] Linhas extraídas: 51
+2025-05-28 19:30:32,526 INFO [root] Scraping do recurso producao ano=2022 concluído com sucesso.
+2025-05-28 19:30:32,528 INFO [root] Fonte dos dados de producao: online
+2025-05-28 19:31:34,232 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-28 19:31:34,328 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:31:34,416 INFO [root] [SCRAPER] Linhas extraídas: 51
+2025-05-28 19:31:34,418 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-28 19:31:34,420 INFO [root] Fonte dos dados de producao: online
+2025-05-28 19:33:12,794 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-28 19:33:12,891 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:33:13,042 INFO [root] [SCRAPER] Linhas extraídas: 139
+2025-05-28 19:33:13,043 INFO [root] Scraping do recurso processamento ano=2023 concluído com sucesso.
+2025-05-28 19:33:13,044 INFO [root] Fonte dos dados de processamento: online
+2025-05-28 19:33:47,138 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_03'}
+2025-05-28 19:33:47,266 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:33:47,399 INFO [root] [SCRAPER] Linhas extraídas: 139
+2025-05-28 19:33:47,400 INFO [root] Scraping do recurso processamento ano=1970 concluído com sucesso.
+2025-05-28 19:33:47,401 INFO [root] Fonte dos dados de processamento: online
+2025-05-28 19:34:08,509 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_04'}
+2025-05-28 19:34:08,646 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:34:08,738 INFO [root] [SCRAPER] Linhas extraídas: 62
+2025-05-28 19:34:08,739 INFO [root] Scraping do recurso comercializacao ano=2023 concluído com sucesso.
+2025-05-28 19:34:08,740 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-28 19:34:33,774 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_04'}
+2025-05-28 19:34:33,872 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:34:33,965 INFO [root] [SCRAPER] Linhas extraídas: 62
+2025-05-28 19:34:33,965 INFO [root] Scraping do recurso comercializacao ano=1970 concluído com sucesso.
+2025-05-28 19:34:33,967 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-28 19:34:59,315 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2022', 'opcao': 'opt_04'}
+2025-05-28 19:34:59,447 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:34:59,533 INFO [root] [SCRAPER] Linhas extraídas: 62
+2025-05-28 19:34:59,534 INFO [root] Scraping do recurso comercializacao ano=2022 concluído com sucesso.
+2025-05-28 19:34:59,535 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-28 19:35:28,098 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-28 19:35:28,256 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:35:28,359 INFO [root] [SCRAPER] Linhas extraídas: 69
+2025-05-28 19:35:28,361 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-28 19:35:28,362 INFO [root] Fonte dos dados de importacao: online
+2025-05-28 19:36:10,468 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-28 19:36:10,612 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:36:10,704 INFO [root] [SCRAPER] Linhas extraídas: 69
+2025-05-28 19:36:10,705 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-28 19:36:10,707 INFO [root] Fonte dos dados de importacao: online
+2025-05-28 19:36:55,109 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-28 19:36:55,207 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:36:55,326 INFO [root] [SCRAPER] Linhas extraídas: 69
+2025-05-28 19:36:55,327 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-28 19:36:55,329 INFO [root] Fonte dos dados de importacao: online
+2025-05-28 19:37:44,599 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_05'}
+2025-05-28 19:37:44,697 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:37:44,795 INFO [root] [SCRAPER] Linhas extraídas: 69
+2025-05-28 19:37:44,796 INFO [root] Scraping do recurso importacao ano=1970 concluído com sucesso.
+2025-05-28 19:37:44,797 INFO [root] Fonte dos dados de importacao: online
+2025-05-28 19:38:06,046 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-28 19:38:06,138 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 19:38:06,233 INFO [root] [SCRAPER] Linhas extraídas: 69
+2025-05-28 19:38:06,234 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-28 19:38:06,236 INFO [root] Fonte dos dados de importacao: online
+2025-05-28 19:44:14,754 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-28 19:44:14,772 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023CA7DBBD30>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-28 19:44:14,878 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023CA7DBBD30>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-28 19:44:14,881 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-28 19:44:14,882 ERROR [root] [FALLBACK] Backup local também falhou: Backup local não encontrado para producao ano=2023
+2025-05-28 21:21:02,987 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-28 21:21:03,160 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:21:03,234 INFO [root] [SCRAPER] Linhas extraídas: 51
+2025-05-28 21:21:03,235 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-28 21:21:03,237 INFO [root] Fonte dos dados de producao: online
+2025-05-28 21:21:40,945 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-28 21:21:40,964 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E828D1270>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-28 21:21:40,966 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E828D1270>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-28 21:21:40,968 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-28 21:21:40,979 ERROR [root] [FALLBACK] Backup local também falhou: Backup local não encontrado para producao ano=2023
+2025-05-28 21:27:14,367 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-28 21:27:14,480 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:27:14,520 INFO [root] [SCRAPER] Linhas extraídas: 51
+2025-05-28 21:27:14,521 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-28 21:27:14,521 INFO [root] Fonte dos dados de producao: online
+2025-05-28 21:27:39,435 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-28 21:27:39,441 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023FC5081B10>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-28 21:27:39,443 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023FC5081B10>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-28 21:27:39,446 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-28 21:27:39,449 INFO [root] Backup JSON carregado para producao ano=2023
+2025-05-28 21:27:39,450 INFO [root] Fonte dos dados de producao: local
+2025-05-28 21:49:05,688 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-28 21:49:05,826 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:49:05,897 INFO [root] [SCRAPER] Linhas extraídas: 51
+2025-05-28 21:49:05,899 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-28 21:49:05,901 INFO [root] Fonte dos dados de producao: online
+2025-05-28 21:55:07,397 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-28 21:55:07,543 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:55:07,628 INFO [root] [SCRAPER] Linhas extraídas: 51 | Valor total: 457.792.870
+2025-05-28 21:55:07,629 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-28 21:55:07,630 INFO [root] Fonte dos dados de producao: online
+2025-05-28 21:55:38,307 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-28 21:55:38,458 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:55:38,586 INFO [root] [SCRAPER] Linhas extraídas: 139 | Valor total: 99.557.416
+2025-05-28 21:55:38,587 INFO [root] Scraping do recurso processamento ano=2023 concluído com sucesso.
+2025-05-28 21:55:38,588 INFO [root] Fonte dos dados de processamento: online
+2025-05-28 21:55:51,399 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_04'}
+2025-05-28 21:55:51,539 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:55:51,636 INFO [root] [SCRAPER] Linhas extraídas: 62 | Valor total: 472.291.085
+2025-05-28 21:55:51,638 INFO [root] Scraping do recurso comercializacao ano=2023 concluído com sucesso.
+2025-05-28 21:55:51,641 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-28 21:55:54,011 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_04'}
+2025-05-28 21:55:54,097 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:55:54,198 INFO [root] [SCRAPER] Linhas extraídas: 62 | Valor total: 472.291.085
+2025-05-28 21:55:54,199 INFO [root] Scraping do recurso comercializacao ano=2023 concluído com sucesso.
+2025-05-28 21:55:54,200 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-28 21:56:04,065 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-28 21:56:04,174 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:56:04,400 INFO [root] [SCRAPER] Linhas extraídas: 69 | Valor total: 481.082.975
+2025-05-28 21:56:04,400 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-28 21:56:04,401 INFO [root] Fonte dos dados de importacao: online
+2025-05-28 21:56:06,625 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-28 21:56:06,712 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:56:06,810 INFO [root] [SCRAPER] Linhas extraídas: 69 | Valor total: 481.082.975
+2025-05-28 21:56:06,811 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-28 21:56:06,812 INFO [root] Fonte dos dados de importacao: online
+2025-05-28 21:56:19,984 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_06'}
+2025-05-28 21:56:20,093 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:56:20,281 INFO [root] [SCRAPER] Linhas extraídas: 141 | Valor total: 8.751.275
+2025-05-28 21:56:20,281 INFO [root] Scraping do recurso exportacao ano=2024 concluído com sucesso.
+2025-05-28 21:56:20,282 INFO [root] Fonte dos dados de exportacao: online
+2025-05-28 21:56:22,772 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_06'}
+2025-05-28 21:56:22,860 INFO [root] [SCRAPER] Status code: 200
+2025-05-28 21:56:23,042 INFO [root] [SCRAPER] Linhas extraídas: 141 | Valor total: 8.751.275
+2025-05-28 21:56:23,042 INFO [root] Scraping do recurso exportacao ano=2024 concluído com sucesso.
+2025-05-28 21:56:23,044 INFO [root] Fonte dos dados de exportacao: online
+2025-05-29 20:04:06,346 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2000', 'opcao': 'opt_02'}
+2025-05-29 20:04:06,455 ERROR [root] Erro ao raspar producao ano=2000: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001F3146AB190>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:04:06,473 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001F3146AB190>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:04:06,483 INFO [root] Tentando carregar backup local para producao ano=2000
+2025-05-29 20:04:06,487 INFO [root] Backup JSON carregado para producao ano=2000
+2025-05-29 20:04:06,489 INFO [root] Fonte dos dados de producao: local
+2025-05-29 20:04:26,239 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 20:04:26,252 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001F3146AB8B0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:04:26,291 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001F3146AB8B0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:04:26,293 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-29 20:04:26,294 INFO [root] Backup JSON carregado para producao ano=2023
+2025-05-29 20:04:26,296 INFO [root] Fonte dos dados de producao: local
+2025-05-29 20:05:41,170 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2020', 'opcao': 'opt_02'}
+2025-05-29 20:05:41,179 ERROR [root] Erro ao raspar producao ano=2020: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2020&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001F3146A9F90>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:05:41,181 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2020&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001F3146A9F90>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:05:41,196 INFO [root] Tentando carregar backup local para producao ano=2020
+2025-05-29 20:05:41,263 INFO [root] Backup JSON carregado para producao ano=2020
+2025-05-29 20:05:41,266 INFO [root] Fonte dos dados de producao: local
+2025-05-29 20:42:33,566 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 20:42:33,576 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001F3146AAC80>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:42:33,618 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001F3146AAC80>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:42:33,685 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-29 20:42:33,690 INFO [root] Backup JSON carregado para producao ano=2023
+2025-05-29 20:42:33,692 INFO [root] Fonte dos dados de producao: local
+2025-05-29 20:43:24,131 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 20:43:24,271 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 20:43:24,356 INFO [root] [SCRAPER] Linhas extraídas: 51 | Valor total: 457.792.870
+2025-05-29 20:43:24,357 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 20:43:24,358 INFO [root] Fonte dos dados de producao: online
+2025-05-29 20:49:00,159 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 20:49:00,165 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D2506860>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:49:00,166 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D2506860>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:49:00,170 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-29 20:49:00,175 INFO [root] Backup JSON carregado para producao ano=2023
+2025-05-29 20:49:00,176 INFO [root] Fonte dos dados de producao: local
+2025-05-29 20:49:11,778 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2000', 'opcao': 'opt_02'}
+2025-05-29 20:49:11,785 ERROR [root] Erro ao raspar producao ano=2000: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B1390>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:49:11,788 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B1390>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:49:11,962 INFO [root] Tentando carregar backup local para producao ano=2000
+2025-05-29 20:49:11,965 INFO [root] Backup JSON carregado para producao ano=2023
+2025-05-29 20:49:11,967 INFO [root] Fonte dos dados de producao: local
+2025-05-29 20:49:33,041 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 20:49:33,049 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B1C90>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:49:33,051 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B1C90>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:49:33,055 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-29 20:49:33,058 INFO [root] Backup JSON carregado para producao ano=2023
+2025-05-29 20:49:33,059 INFO [root] Fonte dos dados de producao: local
+2025-05-29 20:49:43,451 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2000', 'opcao': 'opt_03'}
+2025-05-29 20:49:43,457 ERROR [root] Erro ao raspar processamento ano=2000: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B2560>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:49:43,458 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B2560>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:49:43,461 INFO [root] Tentando carregar backup local para processamento ano=2000
+2025-05-29 20:49:43,465 INFO [root] Backup JSON carregado para processamento ano=2023
+2025-05-29 20:49:43,468 INFO [root] Fonte dos dados de processamento: local
+2025-05-29 20:49:48,575 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2000', 'opcao': 'opt_03'}
+2025-05-29 20:49:48,582 ERROR [root] Erro ao raspar processamento ano=2000: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D2507790>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:49:48,587 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D2507790>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:49:48,591 INFO [root] Tentando carregar backup local para processamento ano=2000
+2025-05-29 20:49:48,592 INFO [root] Backup JSON carregado para processamento ano=2023
+2025-05-29 20:49:48,595 INFO [root] Fonte dos dados de processamento: local
+2025-05-29 20:50:16,342 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-29 20:50:16,347 ERROR [root] Erro ao raspar importacao ano=2024: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_05 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B1F00>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:50:16,350 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_05 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B1F00>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:50:16,357 INFO [root] Tentando carregar backup local para importacao ano=2024
+2025-05-29 20:50:16,361 INFO [root] Backup JSON carregado para importacao ano=2024
+2025-05-29 20:50:16,424 INFO [root] Fonte dos dados de importacao: local
+2025-05-29 20:50:39,873 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_06'}
+2025-05-29 20:50:39,878 ERROR [root] Erro ao raspar exportacao ano=2024: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_06 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B16F0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:50:39,880 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_06 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B16F0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:50:39,887 INFO [root] Tentando carregar backup local para exportacao ano=2024
+2025-05-29 20:50:39,889 INFO [root] Backup JSON carregado para exportacao ano=2024
+2025-05-29 20:50:39,892 INFO [root] Fonte dos dados de exportacao: local
+2025-05-29 20:51:33,978 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_06'}
+2025-05-29 20:51:33,988 ERROR [root] Erro ao raspar exportacao ano=2024: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_06 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B0970>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:51:33,989 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_06 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E1D25B0970>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 20:51:33,995 INFO [root] Tentando carregar backup local para exportacao ano=2024
+2025-05-29 20:51:34,029 INFO [root] Backup JSON carregado para exportacao ano=2024
+2025-05-29 20:51:34,057 INFO [root] Fonte dos dados de exportacao: local
+2025-05-29 20:52:11,807 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_06'}
+2025-05-29 20:52:12,007 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 20:52:12,163 INFO [root] [SCRAPER] Linhas extraídas: 141 | Valor total: 8.751.275
+2025-05-29 20:52:12,164 INFO [root] Scraping do recurso exportacao ano=2024 concluído com sucesso.
+2025-05-29 20:52:12,165 INFO [root] Fonte dos dados de exportacao: online
+2025-05-29 20:52:30,311 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 20:52:30,476 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 20:52:30,603 INFO [root] [SCRAPER] Linhas extraídas: 139 | Valor total: 99.557.416
+2025-05-29 20:52:30,604 INFO [root] Scraping do recurso processamento ano=2023 concluído com sucesso.
+2025-05-29 20:52:30,605 INFO [root] Fonte dos dados de processamento: online
+2025-05-29 21:00:07,589 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 21:00:07,774 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:00:07,851 INFO [root] [SCRAPER] Linhas extraídas: 51 | Valor total: 457.792.870
+2025-05-29 21:00:07,852 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 21:00:07,853 INFO [root] Fonte dos dados de producao: online
+2025-05-29 21:00:36,049 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 21:00:36,056 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022677D393C0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:00:36,063 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022677D393C0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:00:36,142 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-29 21:00:36,215 ERROR [root] [FALLBACK] Backup local também falhou: 'str' object has no attribute 'keys'
+2025-05-29 21:02:44,071 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 21:02:44,219 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:02:44,294 INFO [root] [SCRAPER] Linhas extraídas: 51 | Valor total: 457.792.870
+2025-05-29 21:02:44,295 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 21:02:44,297 INFO [root] Fonte dos dados de producao: online
+2025-05-29 21:03:23,572 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 21:03:23,671 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:03:23,843 INFO [root] [SCRAPER] Linhas extraídas: 139 | Valor total: 99.557.416
+2025-05-29 21:03:23,844 INFO [root] Scraping do recurso processamento ano=2023 concluído com sucesso.
+2025-05-29 21:03:23,845 INFO [root] Fonte dos dados de processamento: online
+2025-05-29 21:05:48,486 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_04'}
+2025-05-29 21:05:48,735 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:05:48,824 INFO [root] [SCRAPER] Linhas extraídas: 62 | Valor total: 472.291.085
+2025-05-29 21:05:48,824 INFO [root] Scraping do recurso comercializacao ano=2023 concluído com sucesso.
+2025-05-29 21:05:48,825 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-29 21:08:34,964 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 21:08:34,980 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001BF22E9CA90>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:08:34,980 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001BF22E9CA90>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:08:34,988 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-29 21:08:34,991 INFO [root] Fonte dos dados de producao: local
+2025-05-29 21:08:57,266 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 21:08:57,312 ERROR [root] Erro ao raspar processamento ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001BF22E9C850>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:08:57,317 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001BF22E9C850>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:08:57,318 INFO [root] Tentando carregar backup local para processamento ano=2023
+2025-05-29 21:08:57,321 INFO [root] Fonte dos dados de processamento: local
+2025-05-29 21:14:43,723 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 21:14:43,916 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:14:44,058 INFO [root] [SCRAPER] Linhas extraídas: 139 | Valor total: 99.557.416
+2025-05-29 21:14:44,059 INFO [root] Scraping do recurso processamento ano=2023 concluído com sucesso.
+2025-05-29 21:14:44,061 INFO [root] Fonte dos dados de processamento: online
+2025-05-29 21:15:19,861 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 21:15:19,865 ERROR [root] Erro ao raspar processamento ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023CCEFF2950>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:15:19,873 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023CCEFF2950>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:15:19,955 INFO [root] Tentando carregar backup local para processamento ano=2023
+2025-05-29 21:15:19,965 INFO [root] Fonte dos dados de processamento: local
+2025-05-29 21:32:16,980 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 21:32:17,141 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:32:17,226 INFO [root] [SCRAPER] Linhas extraídas: 51 | Valor total: 457.792.870
+2025-05-29 21:32:17,226 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 21:32:17,227 INFO [root] Fonte dos dados de producao: online
+2025-05-29 21:32:23,484 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 21:32:23,670 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:32:23,750 INFO [root] [SCRAPER] Linhas extraídas: 51 | Valor total: 457.792.870
+2025-05-29 21:32:23,752 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 21:32:23,754 INFO [root] Fonte dos dados de producao: online
+2025-05-29 21:32:40,200 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_02'}
+2025-05-29 21:32:40,421 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:32:40,490 INFO [root] [SCRAPER] Linhas extraídas: 51 | Valor total: 256.370.050
+2025-05-29 21:32:40,491 INFO [root] Scraping do recurso producao ano=1970 concluído com sucesso.
+2025-05-29 21:32:40,492 INFO [root] Fonte dos dados de producao: online
+2025-05-29 21:33:06,874 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 21:33:06,975 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:33:07,111 INFO [root] [SCRAPER] Linhas extraídas: 139 | Valor total: 99.557.416
+2025-05-29 21:33:07,111 INFO [root] Scraping do recurso processamento ano=2023 concluído com sucesso.
+2025-05-29 21:33:07,112 INFO [root] Fonte dos dados de processamento: online
+2025-05-29 21:33:13,170 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 21:33:13,271 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:33:13,422 INFO [root] [SCRAPER] Linhas extraídas: 139 | Valor total: 99.557.416
+2025-05-29 21:33:13,423 INFO [root] Scraping do recurso processamento ano=2023 concluído com sucesso.
+2025-05-29 21:33:13,424 INFO [root] Fonte dos dados de processamento: online
+2025-05-29 21:33:29,275 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_03'}
+2025-05-29 21:33:29,371 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:33:29,514 INFO [root] [SCRAPER] Linhas extraídas: 139 | Valor total: 29.306.769
+2025-05-29 21:33:29,516 INFO [root] Scraping do recurso processamento ano=1970 concluído com sucesso.
+2025-05-29 21:33:29,518 INFO [root] Fonte dos dados de processamento: online
+2025-05-29 21:33:57,840 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_04'}
+2025-05-29 21:33:58,105 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:33:58,188 INFO [root] [SCRAPER] Linhas extraídas: 62 | Valor total: 472.291.085
+2025-05-29 21:33:58,189 INFO [root] Scraping do recurso comercializacao ano=2023 concluído com sucesso.
+2025-05-29 21:33:58,190 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-29 21:34:18,457 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_04'}
+2025-05-29 21:34:18,592 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:34:18,683 INFO [root] [SCRAPER] Linhas extraídas: 62 | Valor total: 472.291.085
+2025-05-29 21:34:18,684 INFO [root] Scraping do recurso comercializacao ano=2023 concluído com sucesso.
+2025-05-29 21:34:18,685 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-29 21:34:25,573 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_04'}
+2025-05-29 21:34:25,669 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:34:25,766 INFO [root] [SCRAPER] Linhas extraídas: 62 | Valor total: 135.765.587
+2025-05-29 21:34:25,767 INFO [root] Scraping do recurso comercializacao ano=1970 concluído com sucesso.
+2025-05-29 21:34:25,768 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-29 21:34:57,691 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_02'}
+2025-05-29 21:34:57,696 ERROR [root] Erro ao raspar producao ano=1970: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=1970&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB97790>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:34:57,696 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=1970&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB97790>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:34:57,700 INFO [root] Tentando carregar backup local para producao ano=1970
+2025-05-29 21:34:57,704 INFO [root] Fonte dos dados de producao: local
+2025-05-29 21:35:10,078 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2000', 'opcao': 'opt_02'}
+2025-05-29 21:35:10,082 ERROR [root] Erro ao raspar producao ano=2000: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB96E30>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:10,083 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB96E30>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:10,084 INFO [root] Tentando carregar backup local para producao ano=2000
+2025-05-29 21:35:10,087 INFO [root] Fonte dos dados de producao: local
+2025-05-29 21:35:20,827 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 21:35:20,831 ERROR [root] Erro ao raspar processamento ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AAA6C50>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:20,845 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AAA6C50>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:20,940 INFO [root] Tentando carregar backup local para processamento ano=2023
+2025-05-29 21:35:20,951 INFO [root] Fonte dos dados de processamento: local
+2025-05-29 21:35:28,967 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2000', 'opcao': 'opt_03'}
+2025-05-29 21:35:28,971 ERROR [root] Erro ao raspar processamento ano=2000: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB947F0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:28,971 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB947F0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:28,972 INFO [root] Tentando carregar backup local para processamento ano=2000
+2025-05-29 21:35:28,975 INFO [root] Fonte dos dados de processamento: local
+2025-05-29 21:35:38,051 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_04'}
+2025-05-29 21:35:38,096 ERROR [root] Erro ao raspar comercializacao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_04 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB97EB0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:38,099 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_04 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB97EB0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:38,102 INFO [root] Tentando carregar backup local para comercializacao ano=2023
+2025-05-29 21:35:38,346 INFO [root] Fonte dos dados de comercializacao: local
+2025-05-29 21:35:45,544 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2000', 'opcao': 'opt_04'}
+2025-05-29 21:35:45,549 ERROR [root] Erro ao raspar comercializacao ano=2000: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_04 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB96680>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:45,550 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2000&opcao=opt_04 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB96680>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:45,558 INFO [root] Tentando carregar backup local para comercializacao ano=2000
+2025-05-29 21:35:45,561 INFO [root] Fonte dos dados de comercializacao: local
+2025-05-29 21:35:50,576 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-29 21:35:50,581 ERROR [root] Erro ao raspar importacao ano=2024: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_05 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB97A90>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:50,584 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_05 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D79AB97A90>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 21:35:50,586 INFO [root] Tentando carregar backup local para importacao ano=2024
+2025-05-29 21:35:50,588 ERROR [root] [FALLBACK] Backup local também falhou: Backup local não possui dados para o ano solicitado nem para o default: 2024/2024
+2025-05-29 21:36:13,946 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-29 21:36:14,045 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:36:14,162 INFO [root] [SCRAPER] Linhas extraídas: 69 | Valor total: 481.082.975
+2025-05-29 21:36:14,163 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-29 21:36:14,164 INFO [root] Fonte dos dados de importacao: online
+2025-05-29 21:36:42,911 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_06'}
+2025-05-29 21:36:43,025 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:36:43,174 INFO [root] [SCRAPER] Linhas extraídas: 141 | Valor total: 8.751.275
+2025-05-29 21:36:43,175 INFO [root] Scraping do recurso exportacao ano=2024 concluído com sucesso.
+2025-05-29 21:36:43,176 INFO [root] Fonte dos dados de exportacao: online
+2025-05-29 21:46:03,083 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-29 21:46:03,239 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 21:46:03,379 INFO [root] [SCRAPER] Linhas extraídas: 69 | Valor total: 481.082.975
+2025-05-29 21:46:03,381 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-29 21:46:03,456 INFO [root] Fonte dos dados de importacao: online
+2025-05-29 22:07:27,296 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 22:07:27,424 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:07:27,504 INFO [root] [SCRAPER] Linhas extraídas: 51 | Total (Kg):  | Valor total (US$): 
+2025-05-29 22:07:27,505 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 22:07:27,507 INFO [root] Fonte dos dados de producao: online
+2025-05-29 22:08:09,252 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 22:08:09,354 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:08:09,489 INFO [root] [SCRAPER] Linhas extraídas: 139 | Total (Kg):  | Valor total (US$): 
+2025-05-29 22:08:09,489 INFO [root] Scraping do recurso processamento ano=2023 concluído com sucesso.
+2025-05-29 22:08:09,490 INFO [root] Fonte dos dados de processamento: online
+2025-05-29 22:08:52,188 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_04'}
+2025-05-29 22:08:52,295 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:08:52,383 INFO [root] [SCRAPER] Linhas extraídas: 62 | Total (Kg):  | Valor total (US$): 
+2025-05-29 22:08:52,384 INFO [root] Scraping do recurso comercializacao ano=2023 concluído com sucesso.
+2025-05-29 22:08:52,385 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-29 22:09:17,927 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-29 22:09:18,040 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:09:18,136 INFO [root] [SCRAPER] Linhas extraídas: 69 | Total (Kg): 153.122.230 | Valor total (US$): 481.082.975
+2025-05-29 22:09:18,137 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-29 22:09:18,138 INFO [root] Fonte dos dados de importacao: online
+2025-05-29 22:10:00,115 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_06'}
+2025-05-29 22:10:00,221 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:10:00,362 INFO [root] [SCRAPER] Linhas extraídas: 141 | Total (Kg): 5.324.465 | Valor total (US$): 8.751.275
+2025-05-29 22:10:00,364 INFO [root] Scraping do recurso exportacao ano=2024 concluído com sucesso.
+2025-05-29 22:10:00,365 INFO [root] Fonte dos dados de exportacao: online
+2025-05-29 22:13:19,843 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 22:13:19,994 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:13:20,072 INFO [root] [SCRAPER] Linhas extraídas: 51 | Total (Kg):  | Valor total (US$): 
+2025-05-29 22:13:20,072 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 22:13:20,073 INFO [root] Fonte dos dados de producao: online
+2025-05-29 22:16:08,190 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 22:16:08,360 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:16:08,447 INFO [root] [SCRAPER] Linhas extraídas: 51 | Total (Kg):  | Valor total (US$): 
+2025-05-29 22:16:08,448 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 22:16:08,450 INFO [root] Fonte dos dados de producao: online
+2025-05-29 22:17:09,164 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 22:17:09,311 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:17:09,389 INFO [root] [SCRAPER] Linhas extraídas: 51 | Total (Kg):  | Valor total (US$): 
+2025-05-29 22:17:09,389 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 22:17:09,391 INFO [root] Fonte dos dados de producao: online
+2025-05-29 22:21:19,415 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 22:21:19,598 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:21:19,675 INFO [root] [SCRAPER] Linhas extraídas: 51 | Total (Kg):  | Valor total (US$): 
+2025-05-29 22:21:19,676 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 22:21:19,677 INFO [root] Fonte dos dados de producao: online
+2025-05-29 22:26:51,326 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 22:26:51,484 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:26:51,569 INFO [root] [SCRAPER] Linhas extraídas: 51 | Total (Kg):  | Valor total (US$): 
+2025-05-29 22:26:51,569 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 22:26:51,571 INFO [root] Fonte dos dados de producao: online
+2025-05-29 22:36:18,531 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 22:36:18,655 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 22:36:18,729 INFO [root] [SCRAPER] Linhas extraídas: 51 | Total (Kg):  | Valor total (US$): 
+2025-05-29 22:36:18,731 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 22:36:18,731 INFO [root] Fonte dos dados de producao: online
+2025-05-29 23:43:00,476 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 23:43:00,599 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 23:43:00,646 INFO [root] [SCRAPER] Linhas extraídas: 51 | Total (Kg):  | Valor total (US$): 
+2025-05-29 23:43:00,647 INFO [root] Scraping do recurso producao ano=2023 concluído com sucesso.
+2025-05-29 23:43:00,648 INFO [root] Fonte dos dados de producao: online
+2025-05-29 23:43:07,769 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_02'}
+2025-05-29 23:43:07,891 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 23:43:07,932 INFO [root] [SCRAPER] Linhas extraídas: 51 | Total (Kg):  | Valor total (US$): 
+2025-05-29 23:43:07,933 INFO [root] Scraping do recurso producao ano=1970 concluído com sucesso.
+2025-05-29 23:43:07,934 INFO [root] Fonte dos dados de producao: online
+2025-05-29 23:44:50,774 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 23:44:50,897 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 23:44:51,040 INFO [root] [SCRAPER] Linhas extraídas: 139 | Total (Kg):  | Valor total (US$): 
+2025-05-29 23:44:51,041 INFO [root] Scraping do recurso processamento ano=2023 concluído com sucesso.
+2025-05-29 23:44:51,042 INFO [root] Fonte dos dados de processamento: online
+2025-05-29 23:45:11,752 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_03'}
+2025-05-29 23:45:11,881 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 23:45:12,019 INFO [root] [SCRAPER] Linhas extraídas: 139 | Total (Kg):  | Valor total (US$): 
+2025-05-29 23:45:12,020 INFO [root] Scraping do recurso processamento ano=2023 concluído com sucesso.
+2025-05-29 23:45:12,020 INFO [root] Fonte dos dados de processamento: online
+2025-05-29 23:45:19,721 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_03'}
+2025-05-29 23:45:19,883 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 23:45:20,001 INFO [root] [SCRAPER] Linhas extraídas: 139 | Total (Kg):  | Valor total (US$): 
+2025-05-29 23:45:20,001 INFO [root] Scraping do recurso processamento ano=1970 concluído com sucesso.
+2025-05-29 23:45:20,002 INFO [root] Fonte dos dados de processamento: online
+2025-05-29 23:45:37,737 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_04'}
+2025-05-29 23:45:37,848 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 23:45:37,942 INFO [root] [SCRAPER] Linhas extraídas: 62 | Total (Kg):  | Valor total (US$): 
+2025-05-29 23:45:37,943 INFO [root] Scraping do recurso comercializacao ano=2023 concluído com sucesso.
+2025-05-29 23:45:37,945 INFO [root] Fonte dos dados de comercializacao: online
+2025-05-29 23:46:14,843 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-29 23:46:14,947 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 23:46:15,044 INFO [root] [SCRAPER] Linhas extraídas: 69 | Total (Kg): 153.122.230 | Valor total (US$): 481.082.975
+2025-05-29 23:46:15,045 INFO [root] Scraping do recurso importacao ano=2024 concluído com sucesso.
+2025-05-29 23:46:15,047 ERROR [root] Erro ao raspar importacao ano=2024: local variable 'valor_total' referenced before assignment
+2025-05-29 23:46:15,048 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: local variable 'valor_total' referenced before assignment
+2025-05-29 23:46:15,049 INFO [root] Tentando carregar backup local para importacao ano=2024
+2025-05-29 23:46:15,054 INFO [root] Fonte dos dados de importacao: local
+2025-05-29 23:46:35,623 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_06'}
+2025-05-29 23:46:35,724 INFO [root] [SCRAPER] Status code: 200
+2025-05-29 23:46:35,868 INFO [root] [SCRAPER] Linhas extraídas: 141 | Total (Kg): 5.324.465 | Valor total (US$): 8.751.275
+2025-05-29 23:46:35,869 INFO [root] Scraping do recurso exportacao ano=2024 concluído com sucesso.
+2025-05-29 23:46:35,870 ERROR [root] Erro ao raspar exportacao ano=2024: local variable 'valor_total' referenced before assignment
+2025-05-29 23:46:35,870 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: local variable 'valor_total' referenced before assignment
+2025-05-29 23:46:35,871 INFO [root] Tentando carregar backup local para exportacao ano=2024
+2025-05-29 23:46:35,875 INFO [root] Fonte dos dados de exportacao: local
+2025-05-29 23:47:02,833 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_02'}
+2025-05-29 23:47:02,837 ERROR [root] Erro ao raspar producao ano=1970: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=1970&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932E8F0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:02,889 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=1970&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932E8F0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:02,968 INFO [root] Tentando carregar backup local para producao ano=1970
+2025-05-29 23:47:02,970 INFO [root] Fonte dos dados de producao: local
+2025-05-29 23:47:13,851 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2020', 'opcao': 'opt_02'}
+2025-05-29 23:47:13,856 ERROR [root] Erro ao raspar producao ano=2020: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2020&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932C400>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:13,857 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2020&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932C400>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:13,858 INFO [root] Tentando carregar backup local para producao ano=2020
+2025-05-29 23:47:13,975 INFO [root] Fonte dos dados de producao: local
+2025-05-29 23:47:17,631 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2020', 'opcao': 'opt_02'}
+2025-05-29 23:47:17,635 ERROR [root] Erro ao raspar producao ano=2020: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2020&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE90DDAE0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:17,637 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2020&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE90DDAE0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:17,717 INFO [root] Tentando carregar backup local para producao ano=2020
+2025-05-29 23:47:17,722 INFO [root] Fonte dos dados de producao: local
+2025-05-29 23:47:21,351 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_02'}
+2025-05-29 23:47:21,355 ERROR [root] Erro ao raspar producao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932C9D0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:21,356 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_02 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932C9D0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:21,360 INFO [root] Tentando carregar backup local para producao ano=2023
+2025-05-29 23:47:21,365 INFO [root] Fonte dos dados de producao: local
+2025-05-29 23:47:29,364 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '1970', 'opcao': 'opt_03'}
+2025-05-29 23:47:29,369 ERROR [root] Erro ao raspar processamento ano=1970: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=1970&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932F2E0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:29,383 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=1970&opcao=opt_03 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932F2E0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:29,385 INFO [root] Tentando carregar backup local para processamento ano=1970
+2025-05-29 23:47:29,389 INFO [root] Fonte dos dados de processamento: local
+2025-05-29 23:47:57,241 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2023', 'opcao': 'opt_04'}
+2025-05-29 23:47:57,258 ERROR [root] Erro ao raspar comercializacao ano=2023: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_04 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932FBB0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:57,318 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2023&opcao=opt_04 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932FBB0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:47:57,430 INFO [root] Tentando carregar backup local para comercializacao ano=2023
+2025-05-29 23:47:57,448 INFO [root] Fonte dos dados de comercializacao: local
+2025-05-29 23:48:09,883 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_05'}
+2025-05-29 23:48:09,889 ERROR [root] Erro ao raspar importacao ano=2024: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_05 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932C070>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:48:09,899 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_05 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932C070>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:48:09,906 INFO [root] Tentando carregar backup local para importacao ano=2024
+2025-05-29 23:48:09,916 INFO [root] Fonte dos dados de importacao: local
+2025-05-29 23:48:20,337 INFO [root] [SCRAPER] URL requisitada: http://vitibrasil.cnpuv.embrapa.br/index.php | Params: {'ano': '2024', 'opcao': 'opt_06'}
+2025-05-29 23:48:20,347 ERROR [root] Erro ao raspar exportacao ano=2024: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_06 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932C6A0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:48:20,353 WARNING [root] [FALLBACK] Scraping falhou, tentando backup local: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /index.php?ano=2024&opcao=opt_06 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022BE932C6A0>: Failed to resolve 'vitibrasil.cnpuv.embrapa.br' ([Errno 11001] getaddrinfo failed)"))
+2025-05-29 23:48:20,432 INFO [root] Tentando carregar backup local para exportacao ano=2024
+2025-05-29 23:48:20,434 INFO [root] Fonte dos dados de exportacao: local

@@ -59,6 +59,12 @@ cover/
 *.log
 local_settings.py
 db.sqlite3
+
+# VSCode e histórico
+.history/
+
+# Documentação e conhecimento
+/knowledge/
 db.sqlite3-journal
 
 # Flask stuff:
