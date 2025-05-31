@@ -39,6 +39,7 @@ def scrape_table(resource: str, ano: str) -> dict:
         dados = []
         quantidade_total_kg = ""
         valor_total_usd = ""
+        valor_total = ""  # Inicializa para evitar referência antes da atribuição
         for tr in table.find_all("tr"):
             tds = tr.find_all("td")
             if resource in ("importacao", "exportacao"):
@@ -69,7 +70,10 @@ def scrape_table(resource: str, ano: str) -> dict:
         if len(dados) == 0:
             logging.warning(f"[SCRAPER] Nenhum dado extraído da tabela! URL: {url}")
         logging.info(f"Scraping do recurso {resource} ano={ano} concluído com sucesso.")
-        return {"dados": dados, "valor_total": valor_total if valor_total else (quantidade_total_kg if quantidade_total_kg else valor_total_usd), "ano": int(ano)}
+        if resource in ("importacao", "exportacao"):
+            return {"dados": dados, "valor_total": valor_total_usd, "ano": int(ano)}
+        else:
+            return {"dados": dados, "valor_total": valor_total, "ano": int(ano)}
     except Exception as e:
         logging.error(f"Erro ao raspar {resource} ano={ano}: {e}")
         raise
