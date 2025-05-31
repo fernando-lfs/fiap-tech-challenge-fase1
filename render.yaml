@@ -1,0 +1,16 @@
+# Configuração para deploy no Render.com
+# Documentação: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: vitibrasil-api
+    env: python
+    buildCommand: docker build -t vitibrasil-api .
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: JWT_SECRET_KEY
+        generateValue: true
+      - key: ENV
+        value: production
+    plan: free
+    autoDeploy: true
