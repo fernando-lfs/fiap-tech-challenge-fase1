@@ -9,14 +9,48 @@ Vitibrasil API é uma API REST desenvolvida em Python com FastAPI para raspagem 
 ```
 vitibrasil_api/
 ├── app/
-│   ├── adapters/       # Scraping e fallback local
-│   ├── core/           # Configurações e segurança
-│   ├── models/         # Schemas Pydantic
-│   ├── routers/        # Rotas da API
-│   └── services/       # Lógica de negócio
-├── data/               # Backups locais (CSV/JSON)
-├── tests/             # Testes automatizados
-└── README.md
+│   ├── main.py                  # Inicialização do FastAPI e configuração da aplicação
+│   │
+│   ├── adapters/                # Adaptadores para fontes de dados
+│   │   ├── embrapa_scraper.py   # Scraping de dados do site da Embrapa
+│   │   └── local_backup.py      # Leitura de arquivos de backup locais
+│   │
+│   ├── core/                    # Configurações e componentes centrais
+│   │   ├── config.py            # Configurações da aplicação e variáveis de ambiente
+│   │   └── security.py          # Autenticação JWT e utilitários de segurança
+│   │
+│   ├── models/                  # Schemas Pydantic
+│   │   ├── auth.py              # Modelos de autenticação (Token)
+│   │   ├── data.py              # Modelos de resposta de dados
+│   │   └── user.py              # Modelos de usuário
+│   │
+│   ├── routers/                 # Rotas da API
+│   │   ├── auth.py              # Rotas de autenticação (login/cadastro)
+│   │   ├── dados.py             # Rotas de dados (produção, processamento, etc.)
+│   │   └── health.py            # Health checks da aplicação
+│   │
+│   └── services/                # Lógica de negócio
+│       ├── auth.py              # Serviços de autenticação
+│       ├── backup.py            # Lógica de fallback para dados locais
+│       ├── scraping.py          # Orquestração do scraping
+│       └── utils.py             # Utilitários gerais
+│
+├── data/                       # Dados locais
+│   ├── backups/                # Backups de dados em CSV/JSON
+│   └── users.json              # Armazenamento de usuários
+│
+├── tests/                      # Testes automatizados
+│   ├── conftest.py             # Configuração do pytest
+│   ├── test_adapters.py        # Testes dos adaptadores
+│   ├── test_routers.py         # Testes das rotas da API
+│   ├── test_services.py        # Testes dos serviços
+│   └── test_utils.py           # Testes de utilitários
+│
+├── .env.example               # Exemplo de variáveis de ambiente
+├── .gitignore
+├── poetry.lock                # Dependências travadas
+├── pyproject.toml             # Configuração do projeto e dependências
+└── README.md                  # Documentação principal
 ```
 
 ---
