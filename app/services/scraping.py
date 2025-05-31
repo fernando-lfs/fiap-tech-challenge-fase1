@@ -7,6 +7,20 @@ import logging
 
 def get_resource_data(resource: str, ano: Optional[str] = None) -> Dict:
     """
+    Obter dados do recurso solicitado para o ano informado, via scraping online ou fallback local.
+    Caso a requisição principal falhe (timeout, 404 ou 500), utiliza fallback local em arquivo JSON correspondente.
+
+    Args:
+        resource (str): Nome do recurso ('producao', 'processamento', etc).
+        ano (str, opcional): Ano de referência.
+
+    Returns:
+        dict: Dados do recurso solicitado, incluindo fonte, timestamp, ano, valor_total e dados.
+
+    Raises:
+        HTTPException: Se ambos scraping e fallback local falharem.
+    """
+    """
     Obtém os dados do recurso solicitado para o ano informado, via scraping online ou fallback local.
 
     O fluxo é:

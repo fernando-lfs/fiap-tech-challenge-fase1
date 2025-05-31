@@ -7,16 +7,57 @@ from app.core.security import create_access_token
 
 router_auth = APIRouter(prefix="/v1/auth", tags=["Autenticação"])
 
-@router_auth.post("/cadastro", status_code=201, response_model=UserOut)
+@router_auth.post(
+    "/cadastro",
+    status_code=201,
+    response_model=UserOut,
+    summary="Cadastrar novo usuário",
+    description=(
+        "**Cadastrar um novo usuário na API.**  \n\n"
+        "Cria um usuário persistente para autenticação futura. O nome de usuário deve ser único.\n\n"
+        "**Parâmetros:**\n"
+        "- `user` (UserCreate): Dados do usuário (username e password).\n\n"
+        "**Retorno:**\n"
+        "- `UserOut`: Dados públicos do usuário cadastrado.\n\n"
+        "**Respostas de erro:**\n"
+        "- 400: Usuário já existe."
+    )
+)
 def cadastrar_usuario(user: UserCreate):
-    """Cadastra novo usuário (persistente)."""
+    """
+    Cadastrar novo usuário na base persistente.
+
+    Args:
+        user (UserCreate): Dados do usuário a ser cadastrado.
+
+    Returns:
+        dict: Dados públicos do usuário cadastrado.
+
+    Raises:
+        HTTPException: Se o usuário já existir.
+    """
     try:
         add_user(user.username, user.password)
         return {"username": user.username}
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
-@router_auth.post("/login", response_model=Token)
+@router_auth.post(
+    "/login",
+    response_model=Token,
+    summary="Autenticar usuário e obter token JWT",
+    description=(
+        "**Autenticar usuário e gerar token JWT.**  \n\n"
+        "Realiza a autenticação do usuário e retorna um token de acesso JWT para uso nos endpoints protegidos.\n\n"
+        "**Parâmetros:**\n"
+        "- `username` (str): Nome de usuário.\n"
+        "- `password` (str): Senha do usuário.\n\n"
+        "**Retorno:**\n"
+        "- `Token`: Token JWT e tipo do token.\n\n"
+        "**Respostas de erro:**\n"
+        "- 401: Credenciais inválidas."
+    )
+)
 def login(form_data: OAuth2PasswordRequestForm = Depends()):
     """Autentica usuário e retorna JWT."""
     if not authenticate_user(form_data.username, form_data.password):

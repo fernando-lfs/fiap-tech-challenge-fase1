@@ -7,6 +7,9 @@ USERS_FILE = os.path.join(settings.backup_path, "users.json")
 DEFAULT_USER = {"username": "admin", "password": "admin123"}
 
 def ensure_users_file():
+    """
+    Garantir que o arquivo de usuários existe e contém o usuário padrão.
+    """
     """Garante que o arquivo de usuários existe e contém o usuário default."""
     if not os.path.exists(USERS_FILE):
         with open(USERS_FILE, "w", encoding="utf-8") as f:
@@ -24,11 +27,27 @@ def ensure_users_file():
                 f.truncate()
 
 def get_all_users() -> List[Dict]:
+    """
+    Retornar lista de todos os usuários cadastrados.
+
+    Returns:
+        list of dict: Lista de usuários.
+    """
     ensure_users_file()
     with open(USERS_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
 def add_user(username: str, password: str) -> None:
+    """
+    Adicionar novo usuário ao arquivo de usuários.
+
+    Args:
+        username (str): Nome do usuário.
+        password (str): Senha do usuário.
+
+    Raises:
+        ValueError: Se o usuário já existir.
+    """
     users = get_all_users()
     if any(u["username"] == username for u in users):
         raise ValueError("Usuário já existe.")
@@ -37,6 +56,16 @@ def add_user(username: str, password: str) -> None:
         json.dump(users, f)
 
 def authenticate_user(username: str, password: str) -> bool:
+    """
+    Validar credenciais do usuário.
+
+    Args:
+        username (str): Nome do usuário.
+        password (str): Senha do usuário.
+
+    Returns:
+        bool: True se as credenciais forem válidas, False caso contrário.
+    """
     users = get_all_users()
     return any(u["username"] == username and u["password"] == password for u in users)
 
