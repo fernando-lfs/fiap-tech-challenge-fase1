@@ -146,7 +146,9 @@ Acesse a documentação automática em [http://localhost:8000/docs](http://local
 ```json
 {
   "fonte": "online" | "local",
-  "timestamp": "2025-05-31T10:20:37Z",
+  "timestamp": "2025-05-30T00:00:00Z",
+  "ano": 2024,
+  "valor_total": "457.792.870",
   "dados": [ ... ]
 }
 ```
@@ -161,33 +163,34 @@ poetry run pytest
 
 ## 🛠️ Deploy em Nuvem
 
-1. **Heroku/Render/AWS:**
-   - Crie um app na plataforma desejada.
-   - Defina variáveis de ambiente conforme o arquivo `.env` local.
-   - Configure buildpacks para Python 3.10+.
-   - Comando de inicialização:
-     ```bash
-     uvicorn app.main:app --host 0.0.0.0 --port $PORT
-     ```
-2. **Backup e logs:**
-   - Garanta persistência para `/data` (backups) e `/logs`.
-3. **Acesso:**
-   - Acesse via `https://<seu-app>.herokuapp.com/docs` ou domínio da nuvem escolhida.
+A aplicação está disponível em produção no Render:
+- **Documentação da API:** [Acesse a documentação interativa](https://fiap-tech-challenge-fase1-fjj2.onrender.com/docs)
+
+Para implantar em outro ambiente:
+1. **Plataformas suportadas:** Render, Heroku, AWS, etc.
+2. Configure as variáveis de ambiente conforme `.env.example`
+3. Use o comando de inicialização:
+   ```bash
+   uvicorn app.main:app --host 0.0.0.0 --port $PORT
+   ```
+4. Para produção, configure persistência para `/data` (backups) e `/logs`
 
 ---
 
 ## 📚 Referências & Recursos Adicionais
 
-- [Documentação FastAPI](https://fastapi.tiangolo.com/)
-- [Vitibrasil/Embrapa](http://vitibrasil.cnpuv.embrapa.br/)
-- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [Repositório no GitHub](https://github.com/fernando-lfs/fiap-tech-challenge-fase1)
+- **Ferramentas de Desenvolvimento:**
+  - [Documentação do Pyenv](https://github.com/pyenv/pyenv#installation) - Instalação e configuração
+  - [Documentação do Poetry](https://python-poetry.org/docs/#installation) - Guia de instalação
+  - [Documentação do Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - Guia de instalação
 
----
+- **Bibliotecas e Frameworks:**
+  - [Documentação FastAPI](https://fastapi.tiangolo.com/)
+  - [Documentação BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
-## ⚖️ Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+- **Dados e Repositório:**
+  - [Portal Vitibrasil/Embrapa](http://vitibrasil.cnpuv.embrapa.br/)
+  - [Repositório no GitHub](https://github.com/fernando-lfs/fiap-tech-challenge-fase1)
 
 ---
 
